@@ -185,15 +185,19 @@ display: block;
 .section-ul {
 display: flex;
 gap: 24px;
+
 }
 
 .section-li {
 margin-right: 24px;
+
 width: calc((100% - 72px) / 4);
 }
 
 .item-li {
     margin-right: 0;
+width: calc((100% - 72px) / 4);
+        
 }
 
 .page-our {
