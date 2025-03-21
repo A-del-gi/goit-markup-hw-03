@@ -190,7 +190,11 @@ gap: 24px;
 }
 
 .section-li {
-margin-right: 24px;
+width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    padding: 0px 0px 32px 0px;
+    width: 264px;
+    height: 380px;
 }
 
 .page-our {
