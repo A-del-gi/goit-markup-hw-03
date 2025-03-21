@@ -120,26 +120,18 @@ font-weight: 700;
 
 .section-line {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
-.section-h {
+.section-hil {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    
-}
-.wrapper {
-
-   
-}
- 
-
-.hero-wrapper {
-    padding: 191px 473px 289px 471px;
-    min-width: 496px;
+    max-width: 496px;
 }
 
 .section-button {
@@ -151,25 +143,25 @@ font-weight: 700;
         background-color: #4d5ae5
         }
 
-        .hero-botton {
-            padding: 48px 163px 0 164px;
-            display: block;
-                min-width: 169px;
-                height: 56px;
-                border: none;
-                background-color: #4d5ae5;
-                border-radius: 4px;
-                cursor: pointer;
-        }
-        
-        .button {
-           
-        }
+        .class-section {
+   
 
+        }
+                   
 .section-button {
 color: #ffffff;
 cursor: pointer;
+display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    border-radius: 4px;
+    cursor: pointer;
+    
+       
 }
+
 .section-button:hover,
 .section-button:focus {
     background-color: #404bbf;
