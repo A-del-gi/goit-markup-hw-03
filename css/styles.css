@@ -26,6 +26,10 @@ h6 {
     margin: 0;
 }
 
+img {
+    display: block
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -112,6 +116,8 @@ font-weight: 700;
     color: #404bbf;
 }
 
+/*Hero section*/
+
 .section-line {
     background-color: #2e2f42;
 }
@@ -124,6 +130,15 @@ font-weight: 700;
     text-align: center;
     color: #fff;
 }
+.wrapper {
+width: 496px;
+    height: 120px;
+}
+ 
+
+.hero-wrapper {
+    padding: 188px 472px 292px 472px;
+}
 
 .section-button {
     font-weight: 500;
@@ -132,8 +147,17 @@ font-weight: 700;
         letter-spacing: 0.04em;
         color: #fff;
         background-color: #4d5ae5
+        }
+
+        .hero-botton {
+            padding: 48px 163px 0 164px;
+        }
         
-}
+        .button {
+width: 169px;
+    height: 56px;
+        }
+
 .section-button {
 color: #ffffff;
 cursor: pointer;
