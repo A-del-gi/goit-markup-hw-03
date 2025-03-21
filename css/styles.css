@@ -185,12 +185,11 @@ display: block;
 .section-ul {
 display: flex;
 gap: 24px;
-
+width calc((100% - 3 * 24px) / 4);
 }
 
 .section-li {
 margin-right: 24px;
-width calc((100% - 3 * 24px) / 4);
 }
 
 .page-our {
